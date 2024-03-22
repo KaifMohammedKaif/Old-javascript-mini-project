@@ -36,7 +36,7 @@ const makeSound = (key) => {
       snare.play();
       break;
     case "k":
-      let kick = new Audio("assets/sound/kick-bass.mp3");
+      let kick = new Audio("assets/sound/kick-bass.wav");
       kick.play();
       break;
     case "l":
